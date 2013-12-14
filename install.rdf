@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RDF xmlns:em="http://www.mozilla.org/2004/em-rdf#" xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <Description about="urn:mozilla:install-manifest">
+    <em:id>cttab@teramako.github.com</em:id>
+    <em:type>2</em:type>
+    <em:name>CTTab</em:name>
+    <em:version>0.1pre</em:version>
+    <em:creator>teramako</em:creator>
+    <em:description>Ctrl + Tab: list tabs ordered by selection history</em:description>
+    <em:bootstrap>false</em:bootstrap>
+
+    <em:iconURL></em:iconURL>
+
+    <em:targetApplication>
+      <Description>
+        <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+        <em:minVersion>26.0</em:minVersion>
+        <em:maxVersion>29.0a1</em:maxVersion>
+      </Description>
+    </em:targetApplication>
+  </Description>
+</RDF>

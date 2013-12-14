@@ -1,0 +1,7 @@
+content cttab content/
+# locale cttab en-US locale/en-US/
+skin cttab classic/1.0 skin/
+resurce cttab modules/
+
+overlay chrome://browser/content/browser.xul chrome://cttab/content/overlay.xul
+

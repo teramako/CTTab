@@ -1,0 +1,42 @@
+
+#cttab-panel {
+  padding: 20px;
+}
+#cttab-panel-content {
+  overflow-x: auto;
+  background-color: rgba(0,0,0,0.2);
+}
+
+.cttab-item-container {
+  width: 200px;
+  height: 150px;
+  margin: 10px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  -moz-box-pack: center;
+  border-radius: 5px;
+  border: 5px solid transparent;
+}
+
+.cttab-item-container[selected=true] {
+  border: 5px solid #111;
+}
+
+.cttab-item-container > .cttab-item-icon {
+  -moz-box-flex: 1;
+  -moz-box-pack: center;
+  -moz-box-align: center;
+}
+.cttab-item-container > .cttab-item-icon > image {
+  min-width: 52px;
+  min-height: 52px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: rgba(0,0,0,0.2);
+  list-style-image: url("chrome://mozapps/skin/places/defaultFavicon.png");
+}
+.cttab-item-container > .cttab-item-title {
+  background-color: rgba(255,255,255, 0.8);
+  text-align: center;
+}
+

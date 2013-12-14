@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/css" href="chrome://global/skin/"?>
+<?xml-stylesheet type="text/css" href="chrome://cttab/skin/cttab.css"?>
+
+<!DOCTYPE overlay>
+<overlay xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+  <script type="application/javascript" src="chrome://cttab/content/cttab_loader.js"/>
+
+  <keyset id="mainKeyset">
+    <key id="key_cttab2"
+         keycode="VK_TAB"
+         modifiers="control shift"
+         oncommand="CTTab.start(event)"/>
+    <key id="key_cttab"
+         keycode="VK_TAB"
+         modifiers="control"
+         oncommand="CTTab.start(event)"/>
+  </keyset>
+
+  <popupset id="mainPopupSet">
+    <panel id="cttab-panel"
+           level="top"
+           orient="horizontal"
+           onpopupshowing="CTTab.onPopupShowing();"
+           onpopuphiding="CTTab.onPopupHiding();">
+      <hbox id="cttab-panel-content" flex="1"/>
+    </panel>
+  </popupset>
+</overlay>
+

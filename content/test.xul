@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/css" href="chrome://global/skin/"?>
+<?xml-stylesheet type="text/css" href="chrome://cttab/skin/cttab.css"?>
+<window id="cttab-window"
+        title="CTTab Test"
+        xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+  <script type="application/javascript" src="chrome://cttab/content/test.js"/>
+  <vbox flex="1">
+    <hbox id="content"/>
+  </vbox>
+</window>
+
