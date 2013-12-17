@@ -4,7 +4,7 @@
 
 <!DOCTYPE overlay>
 <overlay xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
-  <script type="application/javascript" src="chrome://cttab/content/cttab_loader.js"/>
+  <script type="application/javascript" src="chrome://cttab/content/cttab.js"/>
 
   <keyset id="mainKeyset">
     <key id="key_cttab2"
