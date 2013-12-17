@@ -1,16 +1,20 @@
 
 #cttab-panel {
-  padding: 20px;
+  -moz-appearance: none;
+  background-color: transparent;
 }
 #cttab-panel-content {
   overflow-x: auto;
   background-color: rgba(0,0,0,0.2);
+  border-radius: 5px;
+  padding: 5px;
 }
 
 .cttab-item-container {
   width: 200px;
   height: 150px;
   margin: 10px;
+  background-color: ThreeDDarkShadow;
   background-size: contain;
   background-repeat: no-repeat;
   -moz-box-pack: center;
@@ -20,6 +24,9 @@
 
 .cttab-item-container[selected=true] {
   border: 5px solid #111;
+  margin: 0px;
+  width: 220px;
+  height: 170px;
 }
 
 .cttab-item-container > .cttab-item-icon {
